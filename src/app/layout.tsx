@@ -13,7 +13,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Sazzad Bin Jafor | Software Engineer',
+  title: 'Sazzad Bin Jafor | Software Engineer | Traveller | Vlogger',
   description: 'Professional software engineer portfolio',
 };
 
