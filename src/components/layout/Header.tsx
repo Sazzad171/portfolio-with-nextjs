@@ -2,7 +2,6 @@
 
 import Image from 'next/image';
 import React from 'react';
-import Logo from '@/public/images/logo.png'
 import Link from 'next/link';
 import { MdOutlineLightMode } from "react-icons/md";
 import { IoMoonOutline } from "react-icons/io5";
@@ -18,7 +17,7 @@ const Header = () => {
           <div className="w-full md:w-1/4 px-1">
             <Link href={'/'}>
               <Image
-                src={Logo}
+                src="/images/logo.png"
                 width={"172"}
                 height={"56"}
                 alt='logo'
