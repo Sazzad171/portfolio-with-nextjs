@@ -1,10 +1,10 @@
-import { ThemeProvider } from '@/contexts/ThemeProvider';
 import './globals.css';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import React from 'react';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
+import { ThemeProvider } from '@/contexts/ThemeProvider';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 }) => {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={inter.className}>
+      <body className={`${inter.className} dark:bg-neutral-900 transition-all`}>
         <ThemeProvider>
           <Header />
             <main>
